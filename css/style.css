@@ -180,7 +180,7 @@ p {margin:0 auto .5em;}
 /* UNIVERSAL STYLES */
 /* ================ */
 
-html, body {background:#FEFEFE; color:#414141; font: normal normal 24px/1.25em 'argentcfthin', sans-serif; overflow-x:hidden;}
+html, body {background:#FEFEFE; color:#393939; font: normal normal 24px/1.25em 'argentcfthin', sans-serif; overflow-x:hidden;}
 body * {letter-spacing:1px;}
 .wrapper {width:100%; max-width:80%; margin:0 auto; position:relative;}
 .wrapper.subwrapper {max-width: 85%!important;}
