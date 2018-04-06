@@ -295,7 +295,7 @@ a.nav-active {color:#16393A;}
 /* CONTENT */
 /* ======= */
 
-section {display:block; width:100%; clear:both; position:relative; margin:2em auto 0;}
+section {display:block; width:100%; clear:both; outline: none; position:relative; margin:2em auto 0;}
 section:last-of-type {margin:2em auto;}
 #mainc, #subc {width:100%; position:relative; margin:2em auto;}
 #mainc.front {margin:0 auto;}
