@@ -2,15 +2,24 @@
 /* CSS Document */
 
 @font-face {
-    font-family: 'antoniobold';
-    src: url('../fonts/antonio-bold-webfont.eot');
-    src: url('../fonts/antonio-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/antonio-bold-webfont.woff2') format('woff2'),
-         url('../fonts/antonio-bold-webfont.woff') format('woff'),
-         url('../fonts/antonio-bold-webfont.ttf') format('truetype'),
-         url('../fonts/antonio-bold-webfont.svg#antoniobold') format('svg');
+    font-family: 'bartenderboldserif';
+    src: url('../fonts/Bartender-BoldSerif.eot');
+    src: url('../fonts/Bartender-BoldSerif.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Bartender-BoldSerif.woff2') format('woff2'),
+         url('../fonts/Bartender-BoldSerif.woff') format('woff');
     font-weight: normal;
     font-style: normal;}
+
+    @font-face {
+        font-family: 'antoniobold';
+        src: url('../fonts/antonio-bold-webfont.eot');
+        src: url('../fonts/antonio-bold-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/antonio-bold-webfont.woff2') format('woff2'),
+             url('../fonts/antonio-bold-webfont.woff') format('woff'),
+             url('../fonts/antonio-bold-webfont.ttf') format('truetype'),
+             url('../fonts/antonio-bold-webfont.svg#antoniobold') format('svg');
+        font-weight: normal;
+        font-style: normal;}
 
 @font-face {
     font-family: 'antoniolight';
@@ -33,7 +42,7 @@
          url('../fonts/antonio-regular-webfont.svg#antonioregular') format('svg');
     font-weight: normal;
     font-style: normal;}
-	
+
 @font-face {
     font-family: 'dejavu_serifbold';
     src: url('../fonts/DejaVuSerif-Bold-webfont.eot');
@@ -43,7 +52,7 @@
          url('../fonts/DejaVuSerif-Bold-webfont.svg#dejavu_serifbold') format('svg');
     font-weight: normal;
     font-style: normal;}
-	
+
 @font-face {
     font-family: 'dejavu_serifbold_italic';
     src: url('../fonts/DejaVuSerif-BoldItalic-webfont.eot');
@@ -53,7 +62,7 @@
          url('../fonts/DejaVuSerif-BoldItalic-webfont.svg#dejavu_serifbold_italic') format('svg');
     font-weight: normal;
     font-style: normal;}
-	
+
 @font-face {
     font-family: 'dejavu_serifitalic';
     src: url('../fonts/DejaVuSerif-Italic-webfont.eot');
@@ -63,7 +72,7 @@
          url('../fonts/DejaVuSerif-Italic-webfont.svg#dejavu_serifitalic') format('svg');
     font-weight: normal;
     font-style: normal;}
-	
+
 @font-face {
     font-family: 'dejavu_serifbook';
     src: url('../fonts/DejaVuSerif-webfont.eot');
@@ -80,4 +89,3 @@
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;}
-
