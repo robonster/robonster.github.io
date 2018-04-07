@@ -210,21 +210,8 @@ blockquote:before, blockquote::after {content:'\0022'; padding:0 .125em;}
 /* ====== */
 
 
-header {background:#FFF; /*FALLBACK*/ background:rgba(255,255,255,.875); position:fixed; padding:.75em 0; z-index:80; top:0; left:0; width:100%; transition:all ease-in-out .5s; -webkit-transition:all ease-in-out .5s; -moz-transition:all ease-in-out .5s; -o-transition:all ease-in-out .5s; border-bottom:solid 2px rgba(255,255,255,.75);}
-header.small {background:#FFF; /*FALLBACK*/ background:rgba(255,255,255,1); padding:.25em 0 0; border-bottom:solid 2px #B7B7B7;}
-
-#search-btn.globe-search-btn {position:absolute; z-index:100; transition:all ease-in-out .5s; -webkit-transition:all ease-in-out .5s; -moz-transition:all ease-in-out .5s; -o-transition:all ease-in-out .5s; z-index:100;}
-#global-search {top:-10em; height:0; opacity:0; left:0; width:100%; position:absolute; padding:.75em; -webkit-transition:.5s linear; -moz-transition:.5s linear; -o-transition:.5s linear; transition:.5s linear; z-index:90;}
-#global-search h6 {color:#FFF;}
-search-overlay-input {width:100%;}
-#global-search .search-top {top:-7em; -webkit-transition:1s ease-out; -moz-transition:1s ease-out; -o-transition:1s ease-out; transition:1s ease-out;}
-#global-search.active .search-top {top:20%;}
-#global-search.active {top:8.025em; position:absolute; min-height:250px; opacity:1; background:#8BC63F; /*FALLBACK*/ background:rgba(139,198,63,.95); height:100%;}
-header.small #global-search.active {top:7em;}
-.close-overlay {position:absolute; top:.75em; right:.5em; border-radius:50%; font-size:2em; border:solid 2px #FFF; height:50px; width:50px; color:#FFF; padding:.25em .5em; cursor:pointer;}
-.close-overlay.window-popup {background:#DB6626; top:-20px; right:10px; z-index: 100;}
-.close-overlay.window-popup a {color:#FFF;}
-.close-overlay.window-popup a::before {display:none;}
+header {background:#D3BC48; /*FALLBACK*/ background:rgba(211,188,72,.875); position:fixed; padding:.75em 0; z-index:80; top:0; left:0; width:100%; transition:all ease-in-out .5s; -webkit-transition:all ease-in-out .5s; -moz-transition:all ease-in-out .5s; -o-transition:all ease-in-out .5s; border-bottom:solid 2px rgba(255,255,255,.75);}
+header.small {background:#D3BC48; /*FALLBACK*/ background:rgba(211,188,72,1); padding:.25em 0 0;}
 
 #name-and-slogan {margin:0 auto; left:50%; width:300px; margin-left:-150px; text-align:center; top:-1.25em; position:absolute; padding:.25em; z-index:1;}
 #logo {display:block; position:relative; z-index:1000; margin:0 auto; max-width:130px;}
@@ -241,12 +228,10 @@ header.small #global-search.active {top:7em;}
 /* ==== */
 
 nav {font-family:'antonioregular', serif; text-transform:uppercase; padding:.25em 0; font-size:1.5em; width:100%; z-index:100;}
-nav li a {width:100%; padding:.25em .75em; display:block; z-index:100; letter-spacing:0;}
+nav li a {width:100%; padding:.25em .75em; display:block; z-index:100; letter-spacing:0; color:#FFF;}
 .cbp-hrmenu ul li.Highlighted {border-bottom:solid 1px #16393A;}
 .cbp-hrmenu ul li.Highlighted:hover, .cbp-hrmenu ul li.Highlighted:focus {border-bottom:solid 1px #B7B7B7;}
 a.nav-active {color:#16393A;}
-.nav-desc {font-family:'dejavu_serifbook', serif; font-size:.625em; text-transform:none; white-space:normal; margin:0 auto;}
-.nav-desc a[href^="mailto"]::after {margin-left:.125em; position:relative;}
 
 #cbp-hrmenu {margin:0 auto; text-align:center;}
 .cbp-hrmenu {width:100%; overflow-x:auto;}
