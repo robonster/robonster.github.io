@@ -426,8 +426,9 @@ footer a[href^="mailto:"]::after {right:-2em;}
 
 a::after img {display: none !important;}
 
-a.scrollToTop {font-size:.875em; display:none; position:fixed; height:40px; right:1em; margin-right:-20px; bottom:4em; padding:.75em 1em; background:#DB6626; color:#FFF; z-index:100; border-radius:50%; text-align:center;}
+a.scrollToTop {font-size:.875em; display:none; position:fixed; height:40px; right:1em; margin-right:-20px; bottom:4em; padding:.25em 1em; background:#D3BC48; color:#FFF; z-index:100; border-radius:50%; text-align:center;}
 .scrollToTop .fa.fa-angle-double-up {animation:bounce 1s ease-in infinite; -webkit-animation:bounce 1s ease-in infinite; -moz-animation:bounce 1s ease-in infinite; -o-animation:bounce 1s ease-in infinite; position:relative;}
+a.scrollToTop:hover {opacity: .5;}
 
 #mouse {width:40px; height:40px; border:solid 2px #FFF; border-radius:50%; position:absolute; bottom:3em; left:50%; margin-left:-15px; background:none; z-index:10;}
 #mouse:before {content:'\f0a7'; color:#FFF; font-family: 'FontAwesome'; /*background:#FFF; height:8px; width:2px;*/ display:block; position:absolute; left:12px; margin-top:5px; animation:bounce 1s ease-in infinite; -webkit-animation:bounce 1s ease-in infinite; -moz-animation:bounce 1s ease-in infinite; -o-animation:bounce 1s ease-in infinite;}
