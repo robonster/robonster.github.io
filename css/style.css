@@ -140,13 +140,13 @@ input.invalid, textarea.invalid, input.error, textarea.error {border-color:#D827
 /* ====== */
 /* Remove most spacing between table cells */
 .grid-table {overflow-x:scroll;}
-table {border-collapse: collapse; border-spacing: 0; display:table; table-layout: fixed; border:1px solid #EACE9E; min-width: 100%; width:auto; text-align:left; margin:1em auto 1.5em;}
+table {border-collapse: collapse; border-spacing: 0; display:table; table-layout: fixed; border:1px solid #D3BC48; min-width: 100%; width:auto; text-align:left; margin:1em auto;}
 thead {}
-thead, tfoot {background:#F7D52F;}
+thead, tfoot {background:#D3BC48;}
 thead, tbody, tfoot, tr {width:100%;}
 thead, tbody, tfoot, tr, td, th {padding: 0;}
 thead, tfoot {font-family: 'dejavu_serifbold', sans-serif; font-weight:normal;}
-td, th {width:auto; padding:.25em 1em; border-bottom:1px solid #F7D52F; border-right:1px solid #F7D52F; float:none; clear:none;}
+td, th {width:auto; padding:.25em 1em; border-bottom:1px solid #D3BC48; border-right:1px solid #D3BC48; float:none; clear:none;}
 tr:last-child td:last-child {border-bottom:none; border-right:none;}
 ul {list-style-type:none;}
 ul, ol {padding:0 0 0 1.25em; margin:1em 0;}
@@ -165,7 +165,7 @@ ul li, ol li {padding:.125em 0em .125em 1.25em; text-indent:-1.375em;}
 
 /* SITE ELEMENTS */
 /* ============= */
-* {margin:0; padding:0;}
+* {margin:0; padding:0; outline:none;}
 html {font-family:sans-serif; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;}
 body {margin:0;}
 a, .tooltip {color:#DB6626; text-decoration:none; position:relative; background-color: transparent; display:inline-block; transition:all .3s ease-in; -webkit-transition:all .3s ease-in; -moz-transition:all .3s ease-in; -o-transition:all .3s ease-in; cursor: pointer;}
@@ -226,7 +226,7 @@ header.small {background:#000; /*FALLBACK*/ background:rgba(0,0,0,.5); padding:.
 /* MENU */
 /* ==== */
 
-nav {font-family:'antonioregular', serif; text-transform:uppercase; padding:.25em 0; font-size:1.5em; width:100%; z-index:100;}
+nav {font-family:'bartenderboldserif', serif; text-transform:uppercase; padding:.25em 0; font-size:2em; width:100%; z-index:100;}
 nav li a {width:100%; padding:.25em .75em; display:block; z-index:100; letter-spacing:0; color:#FFF;}
 .cbp-hrmenu ul li.Highlighted {border-bottom:solid 1px #16393A;}
 .cbp-hrmenu ul li.Highlighted:hover, .cbp-hrmenu ul li.Highlighted:focus {border-bottom:solid 1px #B7B7B7;}
@@ -236,8 +236,8 @@ a.nav-active {color:#16393A;}
 .cbp-hrmenu {width:100%; overflow-x:auto;}
 .cbp-hrmenu ul {margin:0 auto; padding:0 .25em; min-width:40em; list-style-type:none; display:inline; white-space: nowrap;}
 .cbp-hrmenu li {text-indent:0; vertical-align:middle;}
-.cbp-hrmenu > ul > li {display: inline-block; padding:.25em 0;}
-.cbp-hrmenu > ul > li a, .cbp-hrmenu ul ul li a {display:inline-block; padding:.25em .5em;}
+.cbp-hrmenu > ul > li {display: inline-block; padding:0 0 .25em;}
+.cbp-hrmenu > ul > li a, .cbp-hrmenu ul ul li a {display:inline-block; padding:.25em .25em .5em; line-height: .5;}
 .cbp-hrmenu ul li a:focus, .cbp-hrmenu ul li a:hover, a.nav-active:hover, a.nav-active:focus {color:#B7B7B7;}
 
 /* SUBMENU */
@@ -252,8 +252,8 @@ a.nav-active {color:#16393A;}
 /* HERO */
 /* ==== */
 
-#hero {background:#F7D52F; margin-top:7.75em; position:relative; overflow: hidden; padding:1em 0;}
-#hero h2 {color:#FFF;}
+#hero {background:#F7D52F; margin-top:7.75em; position:relative; overflow: hidden; padding:2.125em 0;}
+#hero h3 {color:#FFF;}
 
 /* CONTENT */
 /* ======= */
@@ -375,6 +375,8 @@ footer a i[class*="fa fa-"] {padding:.125em .375em; position:relative; margin:0 
 .btn:hover, .btn:focus, button:hover, button:focus, input[type=button]:hover, input[type=button]:focus, .partnerships-section a.btn:hover {background:#B7B7B7;  border:#B7B7B7 solid 1px; color:#FFF;}
 .btn:active, button:active {background:#16393A; border:solid 1px #16393A; color:#FFF;}
 a.btn:before, .partnerships-section a.btn:before {display:none;}
+
+.bartender {font-family:'bartenderboldserif', serif; font-size:2em; text-transform: uppercase;}
 
 .read-more {font-size:.9em; display:inline-block; padding:.35em .75em;}
 .read-more.font-small {margin-left:.75em;}
