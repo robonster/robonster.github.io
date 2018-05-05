@@ -142,7 +142,7 @@ input.invalid, textarea.invalid, input.error, textarea.error {border-color:#D827
 .grid-table {overflow-x:scroll;}
 table {border-collapse: collapse; border-spacing: 0; display:table; table-layout: fixed; border:1px solid #D3BC48; min-width: 100%; width:auto; text-align:left; margin:1em auto;}
 thead {}
-thead, tfoot {background:#D3BC48;}
+thead tr, tfoot tr {background:#D3BC48 !important;}
 thead, tbody, tfoot, tr {width:100%;}
 thead, tbody, tfoot, tr, td, th {padding: 0;}
 thead, tfoot {font-family: 'dejavu_serifbold', sans-serif; font-weight:normal;}
@@ -153,7 +153,8 @@ ul, ol {padding:0 0 0 1.25em; margin:1em 0;}
 ul li, ol li {padding:.125em 0em .125em 1.25em; text-indent:-1.375em;}
 
 tr.win {background:#8BC63F; color:#FFF;}
-tr.loss {background:#D82740; color:#FFF;}
+tr.loss {background:#D82740 !important; color:#FFF;}
+tr:nth-child(2n+1) {background:#EEE;}
 
 /* COLORS */
 /* ====== */
