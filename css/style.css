@@ -175,8 +175,8 @@ body {margin:0;}
 a, .tooltip {color:#DB6626; text-decoration:none; position:relative; background-color: transparent; display:inline-block; transition:all .3s ease-in; -webkit-transition:all .3s ease-in; -moz-transition:all .3s ease-in; -o-transition:all .3s ease-in; cursor: pointer;}
 a:hover, a:focus, .tooltip:hover, .tooltip:focus {color:#B7B7B7; outline:0;}
 img {border:none;}
-img.medium-zoom {z-index: 100;}
-.medium-zoom-overlay {z-index: 100;}
+img.medium-zoom {z-index: 60;}
+.medium-zoom-overlay {z-index: 60;}
 .fit.medium-zoom {position: absolute;}
 .caption {font-family: 'dejavu_serifitalic', sans-serif; font-size:.75em; margin-top:.5em;}
 svg:not(:root) {overflow:hidden;}
@@ -523,9 +523,8 @@ div.rob-grid1-2.right {display:block;}
 .img-grid:nth-child(7n+3) {width:calc(45% - 1em); float:left; margin:0 0 1em 1em;}
 .img-grid:nth-child(7n+4) {width:calc(60% - 1em); float:left; margin:0 1em 1em 0;}
 .img-grid:nth-child(7n+5) {width:40%; float:left; margin:0 0 1em 0;}
-.img-grid:nth-child(7n+6) {width:30%; float:left; margin:0 0 1em 0;}
-.img-grid:nth-child(7n+7) {width:calc(40% - 2em); float:left; margin:0 1em 1em 1em;}
-.img-grid:nth-child(7n+8) {width:30%; float:left; margin:0 0 1em 0;}
+.img-grid:nth-child(7n+6) {width:calc(50% - .5em); height:60vh; float:left; margin:0 .5em 1em 0;}
+.img-grid:nth-child(7n+7) {width:calc(50% - .5em); height:60vh; float:left; margin:0 0 1em .5em;}
 .hero-info {position:absolute; width:35%; bottom:8em; right:5em;}
 .hero-tag {width:auto; font-size:2em;}
 a.scrollToTop {right:50%;}
