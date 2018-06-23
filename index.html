@@ -230,6 +230,16 @@
 			<div class="rob-grid1-4 left">Blake Wilson</div>
 		</div>
 	</div><!--.wrapper-->
+  <div class="margin-big rob-grid1 clearfix">
+    <div class="img-grid"><img src="images/daniel.jpg" class="fit medium-zoom" data-action="zoom"/></div>
+    <div class="img-grid"><img src="images/elliot-field.jpg" class="fit medium-zoom" data-action="zoom"/></div>
+    <div class="img-grid"><img src="images/donovan.jpg" class="fit medium-zoom" data-action="zoom"/></div>
+    <div class="img-grid"><img src="images/sawyer.jpg" class="fit medium-zoom" data-action="zoom"/></div>
+    <div class="img-grid"><img src="images/ben-croix.jpg" class="fit medium-zoom" data-action="zoom"/></div>
+    <div class="img-grid"><img src="images/caleb.jpg" class="fit medium-zoom" data-action="zoom"/></div>
+    <div class="img-grid"><img src="images/croix.jpg" class="fit medium-zoom" data-action="zoom"/></div>
+    <div class="img-grid"><img src="images/austin.jpg" class="fit medium-zoom" data-action="zoom"/></div>
+  </div>
 </section><!--#roster-->
 
 <section id="playerstats" class="clearfix">
@@ -535,7 +545,13 @@
 </footer><!--footer-->
 
 <a href="#" class="scrollToTop"><i class="fa fa-angle-double-up" aria-hidden="false"></i></a>
-
+<script>
+mediumZoom('[data-action="zoom"]', {
+margin: 24,
+background: '#000',
+scrollOffset: 0,
+});
+</script>
 <script type="text/javascript" src="js/main-nav.js"></script>
 <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
 <script>
