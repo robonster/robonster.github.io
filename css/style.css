@@ -177,6 +177,7 @@ a:hover, a:focus, .tooltip:hover, .tooltip:focus {color:#B7B7B7; outline:0;}
 img {border:none;}
 img.medium-zoom {z-index: 60;}
 .medium-zoom-overlay {z-index: 60;}
+.medium-zoom-image--open {z-index: 100!important;}
 .fit.medium-zoom {position: absolute;}
 .caption {font-family: 'dejavu_serifitalic', sans-serif; font-size:.75em; margin-top:.5em;}
 svg:not(:root) {overflow:hidden;}
