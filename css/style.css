@@ -152,6 +152,7 @@ ul {list-style-type:none;}
 ul, ol {padding:0 0 0 1.25em; margin:1em 0;}
 ul li, ol li {padding:.125em 0em .125em 1.25em; text-indent:-1.375em;}
 
+tr.tie {background:#F7D52F !important;}
 tr.win {background:#8BC63F !important; color:#FFF;}
 tr.loss {background:#D82740 !important; color:#FFF;}
 tr:nth-child(2n+1) {background:#EEE;}
