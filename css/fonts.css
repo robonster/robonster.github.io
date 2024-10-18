@@ -1,98 +1,50 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
+@font-face {
+    font-family: 'Saveur Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/saveursans-regular-webfont.woff2'),
+		 url('../fonts/saveursans-regular-webfont.woff') format('woff');}
 
 @font-face {
-    font-family: 'argentcfthinitalic';
-    src: url('../fonts/argentcf-thinitalic-webfont.eot');
-    src: url('../fonts/argentcf-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/argentcf-thinitalic-webfont.woff2') format('woff2'),
-         url('../fonts/argentcf-thinitalic-webfont.woff') format('woff'),
-         url('../fonts/argentcf-thinitalic-webfont.ttf') format('truetype'),
-         url('../fonts/argentcf-thinitalic-webfont.svg#argentcfthinitalic') format('svg');
+    font-family: 'Saveur Sans Bold';
+    font-style: normal;
     font-weight: normal;
-    font-style: normal;}
-	
-@font-face {
-    font-family: 'argentcfthin';
-    src: url('../fonts/argentcf-thin-webfont.eot');
-    src: url('../fonts/argentcf-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/argentcf-thin-webfont.woff2') format('woff2'),
-         url('../fonts/argentcf-thin-webfont.woff') format('woff'),
-         url('../fonts/argentcf-thin-webfont.ttf') format('truetype'),
-         url('../fonts/argentcf-thin-webfont.svg#argentcfthin') format('svg');
-    font-weight: normal;
-    font-style: normal;}
+    src: url('../fonts/saveursans-bold-webfont.woff2'),
+		 url('../fonts/saveursans-bold-webfont.woff') format('woff');}
 
 @font-face {
-    font-family: 'argentcfbold';
-    src: url('../fonts/argentcf-bold-webfont.eot');
-    src: url('../fonts/argentcf-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/argentcf-bold-webfont.woff2') format('woff2'),
-         url('../fonts/argentcf-bold-webfont.woff') format('woff'),
-         url('../fonts/argentcf-bold-webfont.ttf') format('truetype'),
-         url('../fonts/argentcf-bold-webfont.svg#argentcfbold') format('svg');
+    font-family: 'Saveur Sans Light';
+    font-style: normal;
     font-weight: normal;
-    font-style: normal;}
-	
+    src: url('../fonts/saveursans-light-webfont.woff2'),
+		 url('../fonts/saveursans-light-webfont.woff') format('woff');}
+
 @font-face {
-    font-family: 'argentcfbolditalic';
-    src: url('../fonts/argentcf-bolditalic-webfont.eot');
-    src: url('../fonts/argentcf-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/argentcf-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/argentcf-bolditalic-webfont.woff') format('woff'),
-         url('../fonts/argentcf-bolditalic-webfont.ttf') format('truetype'),
-         url('../fonts/argentcf-bolditalic-webfont.svg#argentcfbold_bolditalic') format('svg');
+    font-family: 'Mireyle';
+    font-style: normal;
     font-weight: normal;
-    font-style: normal;}
-	
+    src: url('../fonts/Mireyle.woff2'),
+		 url('../fonts/Mireylet.woff') format('woff');}
+
 @font-face {
-    font-family: 'dreadfulregular';
-    src: url('../fonts/dreadful-regular-webfont.eot');
-    src: url('../fonts/dreadful-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/dreadful-regular-webfont.woff2') format('woff2'),
-         url('../fonts/dreadful-regular-webfont.woff') format('woff'),
-         url('../fonts/dreadful-regular-webfont.ttf') format('truetype'),
-         url('../fonts/dreadful-regular-webfont.svg#dreadfulregular') format('svg');
-    font-weight: normal;
-    font-style: normal;}
-	
-@font-face {
-    font-family: 'assemblageblack';
-    src: url('../fonts/assemblage-black-webfont.eot');
-    src: url('../fonts/assemblage-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/assemblage-black-webfont.woff2') format('woff2'),
-         url('../fonts/assemblage-black-webfont.woff') format('woff'),
-         url('../fonts/assemblage-black-webfont.ttf') format('truetype'),
-         url('../fonts/assemblage-black-webfont.svg#assemblageblack') format('svg');
-    font-weight: normal;
-    font-style: normal;}
-	
-@font-face {
-    font-family: 'mementomori_alternateregular';
-    src: url('../fonts/mementomori_alternate-webfont.eot');
-    src: url('../fonts/mementomori_alternate-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mementomori_alternate-webfont.woff2') format('woff2'),
-         url('../fonts/mementomori_alternate-webfont.woff') format('woff'),
-         url('../fonts/mementomori_alternate-webfont.ttf') format('truetype'),
-         url('../fonts/mementomori_alternate-webfont.svg#mementomori_alternateregular') format('svg');
+    font-family: 'hugillerregular';
+    src: url('../fonts/hugiller-webfont.woff2') format('woff2'),
+         url('../fonts/hugiller-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;}
 
 @font-face {
-    font-family: 'abolitionregular';
-    src: url('../fonts/abolition-regular-webfont.eot');
-    src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/abolition-regular-webfont.woff2') format('woff2'),
-         url('../fonts/abolition-regular-webfont.woff') format('woff'),
-         url('../fonts/abolition-regular-webfont.ttf') format('truetype'),
-         url('../fonts/abolition-regular-webfont.svg#abolitionregular') format('svg');
+    font-family: 'pralinermedium';
+    src: url('../fonts/vvds_praliner-medium-webfont.woff2') format('woff2'),
+         url('../fonts/vvds_praliner-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;}
-	
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;}
 
+@font-face {
+    font-family: 'Organum Medium';
+    src: url('../fonts/VVDS_Organum-Medium.woff2') format('woff2'),
+         url('../fonts/VVDS_Organum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
