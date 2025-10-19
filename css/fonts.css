@@ -1,50 +1,29 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 @font-face {
-    font-family: 'Saveur Sans Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/saveursans-regular-webfont.woff2'),
-		 url('../fonts/saveursans-regular-webfont.woff') format('woff');}
-
-@font-face {
-    font-family: 'Saveur Sans Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/saveursans-bold-webfont.woff2'),
-		 url('../fonts/saveursans-bold-webfont.woff') format('woff');}
-
-@font-face {
-    font-family: 'Saveur Sans Light';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/saveursans-light-webfont.woff2'),
-		 url('../fonts/saveursans-light-webfont.woff') format('woff');}
-
-@font-face {
-    font-family: 'Mireyle';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/Mireyle.woff2'),
-		 url('../fonts/Mireylet.woff') format('woff');}
-
-@font-face {
-    font-family: 'hugillerregular';
-    src: url('../fonts/hugiller-webfont.woff2') format('woff2'),
-         url('../fonts/hugiller-webfont.woff') format('woff');
+    font-family: 'whirly_birdieregular';
+    src: url('../fonts/whirly_birdie-webfont.woff2') format('woff2'),
+         url('../fonts/whirly_birdie-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;}
 
 @font-face {
-    font-family: 'pralinermedium';
-    src: url('../fonts/vvds_praliner-medium-webfont.woff2') format('woff2'),
-         url('../fonts/vvds_praliner-medium-webfont.woff') format('woff');
+    font-family: 'pilsnerregular';
+    src: url('../fonts/pilsner-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pilsner-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;    }
+
+@font-face {
+    font-family: 'burgeryregular';
+    src: url('../fonts/burgery-webfont.woff2') format('woff2'),
+         url('../fonts/burgery-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;}
 
 @font-face {
-    font-family: 'Organum Medium';
-    src: url('../fonts/VVDS_Organum-Medium.woff2') format('woff2'),
-         url('../fonts/VVDS_Organum-Medium.woff') format('woff');
+    font-family: 'foxandbear';
+    src: url('../fonts/foxandbear-regular-webfont.woff2') format('woff2'),
+         url('../fonts/foxandbear-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;}
