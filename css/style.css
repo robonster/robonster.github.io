@@ -50,7 +50,7 @@ button, select {text-transform: none;}
 
 figure, picture {margin: 0 auto; position:relative;}
 figure img, picture img {width:100%;}
-figcaption, .caption {font-family: "Sawarabi Mincho", serif; font-size: .75rem; text-align:left;}
+figcaption, .caption {font-size: .875rem; text-align:left; padding:.5rem; position: relative;}
 pre {overflow:auto;}
 
 /* FORMS */
@@ -668,8 +668,8 @@ li.rob-grid-custom-menu {width:100%; margin-bottom:1rem;}
 /* ======= */
 
 /* VIDEO & IMAGES */
-.video-box {overflow:hidden; height:0;}
-.video-box iframe {position: absolute; top:0; left: 0; height:100%; width:100%;}
+.video-box {overflow:hidden;}
+.video-box iframe {position: relative; top:0; left: 0; height:100%; width:100%;}
 .video-box video {padding:56.25% 0 0; position: relative;}
 .video-box.resp-grid1-2, .video-box-half {padding: 28.125% 0 0;}
 .video-box-half {width:calc(50% - 1rem);}
